@@ -1,0 +1,4 @@
+name: irnm4
+recipe: drupal9
+config:
+  webroot: docroot
