@@ -1,0 +1,10 @@
+uuid: 88e0d017-a1c2-42d7-9106-2cd548ecd46e
+langcode: en
+status: true
+dependencies: {  }
+id: text_and_image_50_50_
+label: 'Text and image (50/50)'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

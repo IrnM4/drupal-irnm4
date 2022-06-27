@@ -1,0 +1,22 @@
+uuid: 52c118ba-6cbe-457b-8aa6-c85f5df6ab12
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - cute
+_core:
+  default_config_hash: '-Ac3ISpIT0PQ-whzD7_dw0SdKi6dAbRFNWdSjOiVDqg'
+id: cute_messages
+theme: cute
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

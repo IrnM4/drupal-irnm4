@@ -1,0 +1,52 @@
+uuid: 6737a172-92c6-411c-b71e-80357b3e277e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.hourly_actions.field_activity
+    - field.field.paragraph.hourly_actions.field_time
+    - paragraphs.paragraphs_type.hourly_actions
+  module:
+    - text
+    - timefield
+id: paragraph.hourly_actions.default
+targetEntityType: paragraph
+bundle: hourly_actions
+mode: default
+content:
+  field_activity:
+    type: text_textarea
+    weight: 1
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_time:
+    type: timefield_standard_widget
+    weight: 0
+    region: content
+    settings:
+      disable_plugin: false
+      separator: ':'
+      showLeadingZero: false
+      showMinutesLeadingZero: true
+      showPeriod: true
+      periodSeparator: ''
+      showHours: true
+      showMinutes: true
+      am_text: AM
+      pm_text: PM
+      minute_interval: 5
+      showCloseButton: false
+      closeButtonText: Done
+      showNowButton: false
+      nowButtonText: Now
+      showDeselectButton: false
+      deselectButtonText: Deselect
+      myPosition: 'left top'
+      atPosition: 'left bottom'
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

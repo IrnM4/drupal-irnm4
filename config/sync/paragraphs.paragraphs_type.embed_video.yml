@@ -1,0 +1,10 @@
+uuid: 6d1637a4-78b4-46b8-a2f0-37a4de8c4e37
+langcode: en
+status: true
+dependencies: {  }
+id: embed_video
+label: 'Embed video (YouTube, Instagram)'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

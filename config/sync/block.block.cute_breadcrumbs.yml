@@ -1,0 +1,22 @@
+uuid: b0f4e679-7044-4268-8b4d-40243214352d
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - cute
+_core:
+  default_config_hash: NjcxOBrPOiK5-38t56DwFBDVY4yer7YSlbRWXFuHe7A
+id: cute_breadcrumbs
+theme: cute
+region: navigation
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

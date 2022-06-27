@@ -1,0 +1,37 @@
+uuid: e0583fa1-1f6b-41ce-ab91-21599a4d73a7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.hourly_actions.field_activity
+    - field.field.paragraph.hourly_actions.field_time
+    - paragraphs.paragraphs_type.hourly_actions
+  module:
+    - text
+    - timefield
+id: paragraph.hourly_actions.default
+targetEntityType: paragraph
+bundle: hourly_actions
+mode: default
+content:
+  field_activity:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_time:
+    type: timefield_default_formatter
+    label: hidden
+    settings:
+      display_format:
+        hour: H
+        minute: i
+        separator: ':'
+        period: none
+        periodSeparator: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

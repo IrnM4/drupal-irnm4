@@ -1,0 +1,17 @@
+uuid: a66f94d9-605a-411b-a0a9-9dc4f5962e0e
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Planner
+type: planner
+description: ''
+help: ''
+new_revision: true
+preview_mode: 0
+display_submitted: true

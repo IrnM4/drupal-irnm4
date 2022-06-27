@@ -1,0 +1,26 @@
+uuid: 167c2c9b-05c9-4a47-b3d4-1863e3a1c06d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.embed_video.field_video
+    - paragraphs.paragraphs_type.embed_video
+  module:
+    - video_embed_field
+id: paragraph.embed_video.default
+targetEntityType: paragraph
+bundle: embed_video
+mode: default
+content:
+  field_video:
+    type: video_embed_field_video
+    label: above
+    settings:
+      autoplay: true
+      responsive: true
+      width: 854
+      height: 480
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

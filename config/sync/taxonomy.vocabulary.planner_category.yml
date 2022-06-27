@@ -1,0 +1,8 @@
+uuid: 3a4a72a9-00b2-4df9-a9a5-857f38596ce8
+langcode: en
+status: true
+dependencies: {  }
+name: 'Planner category'
+vid: planner_category
+description: ''
+weight: 0

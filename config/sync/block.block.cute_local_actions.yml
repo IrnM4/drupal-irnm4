@@ -1,0 +1,20 @@
+uuid: 7e3c5a3f-a8f0-46f8-8af0-f5878817813a
+langcode: en
+status: true
+dependencies:
+  theme:
+    - cute
+_core:
+  default_config_hash: CdXfDmRgAvms7EQovxxWPdYi0GitxeRbVtScYK16ZH0
+id: cute_local_actions
+theme: cute
+region: content
+weight: -10
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

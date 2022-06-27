@@ -1,0 +1,29 @@
+uuid: b0151593-7098-4eb4-adf6-7ac20279f5aa
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_content_area
+    - node.type.planner
+  module:
+    - entity_reference_revisions
+id: node.planner.field_content_area
+field_name: field_content_area
+entity_type: node
+bundle: planner
+label: 'Content area'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles: null
+    negate: 0
+    target_bundles_drag_drop:
+      hourly_actions:
+        weight: 2
+        enabled: false
+field_type: entity_reference_revisions

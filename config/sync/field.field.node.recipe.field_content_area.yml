@@ -1,0 +1,59 @@
+uuid: 45a0bdf8-24ed-4e1f-aef6-e15bce4bd21a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_content_area
+    - node.type.recipe
+    - paragraphs.paragraphs_type.embed_existing_content
+    - paragraphs.paragraphs_type.embed_video
+    - paragraphs.paragraphs_type.image_gallery
+    - paragraphs.paragraphs_type.list
+    - paragraphs.paragraphs_type.text
+    - paragraphs.paragraphs_type.text_and_image_50_50_
+  module:
+    - entity_reference_revisions
+id: node.recipe.field_content_area
+field_name: field_content_area
+entity_type: node
+bundle: recipe
+label: 'Content area'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      embed_existing_content: embed_existing_content
+      embed_video: embed_video
+      image_gallery: image_gallery
+      list: list
+      text: text
+      text_and_image_50_50_: text_and_image_50_50_
+    negate: 0
+    target_bundles_drag_drop:
+      embed_existing_content:
+        weight: 8
+        enabled: true
+      embed_video:
+        weight: 9
+        enabled: true
+      hourly_actions:
+        weight: 10
+        enabled: false
+      image_gallery:
+        weight: 11
+        enabled: true
+      list:
+        weight: 12
+        enabled: true
+      text:
+        weight: 13
+        enabled: true
+      text_and_image_50_50_:
+        weight: 14
+        enabled: true
+field_type: entity_reference_revisions

@@ -1,0 +1,28 @@
+uuid: 4e426f63-cfe3-4b00-8a7c-0fc43b1faabf
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.planner.field_activity_by_hour
+    - field.field.node.planner.field_category
+    - field.field.node.planner.field_content_area
+    - field.field.node.planner.field_date
+    - node.type.planner
+  module:
+    - user
+id: node.planner.teaser
+targetEntityType: node
+bundle: planner
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_activity_by_hour: true
+  field_category: true
+  field_content_area: true
+  field_date: true

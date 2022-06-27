@@ -1,0 +1,21 @@
+uuid: faf7e64b-b431-4116-92a4-0c69a8eab88b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_activity
+    - paragraphs.paragraphs_type.hourly_actions
+  module:
+    - text
+id: paragraph.hourly_actions.field_activity
+field_name: field_activity
+entity_type: paragraph
+bundle: hourly_actions
+label: Activity
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

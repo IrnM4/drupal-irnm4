@@ -1,0 +1,60 @@
+uuid: 2cf15223-ea55-4424-84eb-2f9c57a054e8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.planner.field_activity_by_hour
+    - field.field.node.planner.field_category
+    - field.field.node.planner.field_content_area
+    - field.field.node.planner.field_date
+    - node.type.planner
+  module:
+    - datetime
+    - entity_reference_revisions
+    - user
+id: node.planner.default
+targetEntityType: node
+bundle: planner
+mode: default
+content:
+  field_activity_by_hour:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_category:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_content_area:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  field_date:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: medium
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

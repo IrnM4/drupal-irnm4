@@ -1,0 +1,10 @@
+uuid: 7d281d05-85d8-41ed-9b55-9cf4ef267fd0
+langcode: en
+status: true
+dependencies: {  }
+id: hourly_actions
+label: 'Hourly actions'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

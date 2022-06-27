@@ -1,0 +1,20 @@
+uuid: 4983a87d-e1a5-4ded-9f6b-4890f65bbbea
+langcode: en
+status: true
+dependencies:
+  theme:
+    - cute
+_core:
+  default_config_hash: fNwDdW063tk_ktzSWzZVeQS9wzvLooVO280BQ9WrsIs
+id: cute_page_title
+theme: cute
+region: header
+weight: -30
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

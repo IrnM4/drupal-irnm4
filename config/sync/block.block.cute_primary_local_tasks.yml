@@ -1,0 +1,22 @@
+uuid: dd6c7dae-831c-454d-8943-78d0629785b1
+langcode: en
+status: true
+dependencies:
+  theme:
+    - cute
+_core:
+  default_config_hash: ACjBZI5shAMiiUpsz-inLYVXDqNNXRnSzAWV3kV_8Hw
+id: cute_primary_local_tasks
+theme: cute
+region: header
+weight: 0
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primary tabs'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

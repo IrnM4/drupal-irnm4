@@ -1,0 +1,24 @@
+uuid: ae39c4ae-538c-4af2-a07d-381af7ee9a57
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_time
+    - paragraphs.paragraphs_type.hourly_actions
+  module:
+    - timefield
+id: paragraph.hourly_actions.field_time
+field_name: field_time
+entity_type: paragraph
+bundle: hourly_actions
+label: Time
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  totime: optional
+  weekly_summary: 0
+  weekly_summary_with_label: 0
+field_type: timefield

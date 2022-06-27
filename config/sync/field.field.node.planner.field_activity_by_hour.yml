@@ -1,0 +1,31 @@
+uuid: 66bda1e3-0ea4-4144-a227-ec85f7d4c4c5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_activity_by_hour
+    - node.type.planner
+    - paragraphs.paragraphs_type.hourly_actions
+  module:
+    - entity_reference_revisions
+id: node.planner.field_activity_by_hour
+field_name: field_activity_by_hour
+entity_type: node
+bundle: planner
+label: 'Activity by hour'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      hourly_actions: hourly_actions
+    negate: 0
+    target_bundles_drag_drop:
+      hourly_actions:
+        weight: 2
+        enabled: true
+field_type: entity_reference_revisions
